@@ -14,6 +14,8 @@
 
 */
 
+
+
 /*------------------------------------------------------------------
     IMPORT FILES
 -------------------------------------------------------------------*/
@@ -2600,6 +2602,31 @@
 
 
 
+/*map css*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.map-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.map-image {
+    width: 100%;
+    display: block;
+}
+
+.region {
+    position: absolute;
+    background: rgb(248, 51, 51);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: crosshair;
+}
 
 
 

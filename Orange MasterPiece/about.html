@@ -250,7 +250,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row my-4">
+
+            <!--Our team-->
+<!--           <div class="row my-4">
                 <div class="col-12">
                     <h2 class="noo-sh-title">Meet Our Team</h2>
                 </div>
@@ -360,8 +362,19 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- End About Page -->
+
+<!--map-->
+<div class="map-container">
+    <img src="images/jordan-map.jpg" alt="Map of Jordan" class="map-image">
+    <div class="region" style="top: 20%; left: 25%;" data-region="Region 1">+</div>
+    <div class="region" style="top: 40%; left: 35%;" data-region="Region 2">+</div>
+    <div class="region" style="top: 35%; left: 45%;" data-region="Region 3">+</div>
+    <!-- Add more regions as needed -->
+</div>
+<script src="scripts.js"></script>
+<!--end map-->
 
 <!-- Start sponsored Feed  -->
 <div class="instagram-box">
@@ -542,6 +555,18 @@
 
     <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
 
+
+
+    <script>
+        document.querySelectorAll('.region').forEach(region => {
+    region.addEventListener('click', function() {
+        const regionName = this.getAttribute('data-region');
+        alert(`You clicked on ${regionName}`);
+        // Add your code to display more information or perform other actions
+    });
+});
+
+    </script>
     <!-- ALL JS FILES -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
