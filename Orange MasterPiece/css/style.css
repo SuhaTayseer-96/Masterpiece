@@ -2661,3 +2661,65 @@ body {
             text-decoration: none;
             cursor: pointer;
         }
+
+
+/* Donate*/
+.donate-area {
+    position: relative;
+    background: url(../images/header-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    z-index: 1;
+}
+.donate-area .overlay-bg{
+    opacity:.9;
+    background-color:#000
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.p1-gradient-bg, .primary-btn, .primary-btn:after, .banner-content .clock_sec, .head-btn:hover, .callto-wrap, .single-project .content .content-overlay, .single-vol .content .content-overlay {
+    background-image: -moz-linear-gradient(0deg, #f40f68 0%, #f86e3d 55%, #fbcd11 100%);
+    background-image: -webkit-linear-gradient(0deg, #f40f68 0%, #f86e3d 55%, #fbcd11 100%);
+    background-image: -ms-linear-gradient(0deg, #f40f68 0%, #f86e3d 55%, #fbcd11 100%);
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+.donate-area .header-text h1{color:#fff;margin-bottom:25px}
+.donate-area .contact-left h4{color:#fff;margin-bottom:10px}
+.donate-area .contact-left .single-info{margin-bottom:30px}
+.donate-area .contact-right .form-control{border-radius:0;background-color:transparent;border:1px solid #656463;color:#fff;font-size:14px;padding:12px}
+.donate-area .contact-right input,.donate-area .contact-right textarea{font-size:14px;font-weight:200}
+.donate-area .contact-right .option{color:#222}
+.donate-area .contact-right .nice-select span{color:#ccc;font-size:14px;font-weight:200}
+.donate-area .contact-right textarea{height:150px}
+.donate-area .contact-right .list{width:100%}
+.donate-area .contact-right .payment-method{color:#ccc;margin-top:30px}
+
+
+.donate-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    z-index: -1;
+}
+.booking-form {
+    
+}
