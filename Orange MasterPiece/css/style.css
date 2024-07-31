@@ -143,6 +143,28 @@
  .bootstrap-select .dropdown-toggle:focus{
      box-shadow: none !important 
 }
+/* button register*/
+.login-box {
+    display: flex;
+    justify-content: flex;
+    gap: 5px;
+        }
+
+        .login-box button {
+            padding-left: 0px 6px;
+            font-size: 14px;
+            cursor: pointer;
+            background-color: #b0b435;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            flex: 1;
+            text-align: center;
+        }
+
+        .login-box button:hover {
+            background-color: #000000;
+        }
 /*------------------------------------------------------------------ LOADER -------------------------------------------------------------------*/
  #back-to-top {
      position: fixed;
@@ -162,6 +184,7 @@
      transition: opacity 0.2s ease-out;
      font-size: 28px;
 }
+
 /*------------------------------------------------------------------ HEADER -------------------------------------------------------------------*/
  .main-top{
      background: #000000;
@@ -314,7 +337,7 @@
 	font-size: 13px;
 }
 
- .main-header{
+.main-header{
 }
  .search a{
      color: #b0b435;
@@ -325,6 +348,17 @@
  nav.navbar.bootsnav ul.nav > li > a{
      margin: 0px;
 }
+.login-box button {
+    padding: 6px 70px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #b0b435;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    flex: 0 1 auto;
+}
+
 /* Navbar Adjusment =========================== */
 /* Navbar Atribute ------*/
  .attr-nav > ul > li > a{
@@ -561,6 +595,7 @@
          color: #eee;
          background-color: #222 !important;
     }
+    
      nav.navbar.navbar-inverse .navbar-nav > li > a{
          border-top: solid 1px #303030;
          border-bottom: solid 1px #303030;
@@ -861,8 +896,9 @@
 	padding: 70px 0px;
 	background-color: #f4f4f4;
 }
-
+/*here*/
 .offer-box{
+    width: 250px;
 	position: relative;
 	overflow: hidden;
 }
@@ -871,6 +907,8 @@
 	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease-in-out 0s;
+    margin-top: auto;
+
 }
 
 .offer-box-products:hover{
@@ -879,6 +917,9 @@
 	box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
+.img-fluid{
+    margin: auto;
+}
 /*------------------------------------------------------------------ Products -------------------------------------------------------------------*/
  .title-all{
      margin-bottom: 30px;
